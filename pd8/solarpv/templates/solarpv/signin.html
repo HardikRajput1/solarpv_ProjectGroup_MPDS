@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'solarpv/style.css' %}">
+</head>
+<body>
+<font face = "WildWest" size = "5"><h3 align="center">Solar PV</h3></font>
+<!-- ------------ NAVBAR START ------------- -->
+<div class="topnav">
+  <a href="">Contact</a>
+  <a href="portalform">Portal Forms</a>
+  <a class="active" href="signin">Sign-in</a>
+  <a href="register">Register</a>
+  <a href="#news">About</a>
+  <a href="/">Home</a>
+</div><hr>
+<!-- ------------ NAVBAR END ------------- -->
+
+
+
+<!-- ------------ FORM START ------------- -->
+<h3 align="center">SIGN-IN HERE</h3>
+
+
+<table align="center" cellpadding = "10">
+
+<tr>
+<td>USER NAME</td>
+<td><input type="text" name="User_Name" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>PASSWORD</td>
+<td><input type="password" name="password" maxlength="30"/>
+</td>
+</tr>
+
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+<tr>
+<td  colspan="2" align="center">
+<p>Not registered yet, <b><a href="register">Register</a></b></p>
+</tr>
+</td>
+
+</table>
+
+</form>
+<!-- ------------ FORM END ------------- -->
+
+<!-- ------------ FOOTER START ------------- -->
+<div class="footer">
+  <p>All right reserved.</p>
+  <p>Solar PV Research & Development</p>
+</div>
+
+<!-- ------------ FOOTER END ------------- -->
+
+</body>
+</html>

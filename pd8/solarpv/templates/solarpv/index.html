@@ -1,0 +1,79 @@
+{% load static %}
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" type="text/css" href="{% static 'solarpv/style.css' %}">
+
+    </head>
+
+    <body>
+<font face = "WildWest" size = "5"><h3 align="center">Solar PV</h3></font>
+<!-- ------------ NAVBAR START ------------- -->
+<div class="topnav">
+  <a href="">Contact</a>
+  <a href="portalform">Portal Forms</a>
+  <a href="signin">Sign-in</a>
+  <a href="register">Register</a>
+  <a href="#news">About</a>
+  <a class="active" href="/">Home</a>
+</div><hr>
+
+<!-- ------------ NAVBAR END ------------- -->
+
+<!-- ------------ SLIDER START ------------- -->
+
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="{% static 'solarpv/solar1.jpg' %}" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="{% static 'solarpv/solar2resized.jpg' %}" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="{% static 'solarpv/solar3resized.jpg' %}" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<!-- ------------ SLIDER END ------------- -->
+
+
+
+<!-- ------------ FOOTER START ------------- -->
+<div class="footer">
+  <p>All right reserved.</p>
+  <p>Solar PV Research & Development</p>
+</div>
+
+<!-- ------------ FOOTER END ------------- -->
+
+
+
+
+    <script src="{% static 'solarpv/scripts.js' %}"></script>
+
+    </body>
+
+</html>

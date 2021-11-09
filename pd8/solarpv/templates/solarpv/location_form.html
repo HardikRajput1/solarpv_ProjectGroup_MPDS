@@ -1,0 +1,115 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'solarpv/style.css' %}">
+</head>
+<body>
+<font face = "WildWest"  size = "5"><h3 align="center">Solar PV</h3></font>
+<!-- ------------ NAVBAR START ------------- -->
+<div class="topnav">
+  <a href="">Contact</a>
+  <a class="active" href="portalform">Portal Forms</a>
+  <a href="signin">Sign-in</a>
+  <a href="register">Register</a>
+  <a href="#news">About</a>
+  <a href="/">Home</a>
+</div><hr>
+
+<!-- ------------ NAVBAR END ------------- -->
+
+<!-- ------------ CLIENT FORM START ------------- -->
+<h3 align="center">LOCATION</h3>
+
+<table align="center" cellpadding = "10">
+<tr>
+<td>LOCATION ID</td>
+<td><input type="text" name="location_id" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>CLIENT ID</td>
+<td><input type="text" name="client_id" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>ADDRESS 1 <br /><br /><br /></td>
+<td><textarea name="Address1" rows="4" cols="30"></textarea></td>
+</tr>
+
+<tr>
+<td>ADDRESS 2 <br /><br /><br /></td>
+<td><textarea name="Address2" rows="4" cols="30"></textarea></td>
+</tr>
+
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30" />
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" />
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>FAX NUMBER</td>
+<td>
+<input type="text" name="Fax_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+  <a href="portalform"><input type="button" value="Back"></a>
+</td>
+</tr>
+</table>
+
+</form>
+<!-- ------------ CLIENT FORM END ------------- -->
+
+<!-- ------------ FOOTER START ------------- -->
+<div class="regis_footer">
+  <p>All right reserved.</p>
+  <p>Solar PV Research & Development</p>
+</div>
+
+
+<!-- ------------ FOOTER END ------------- -->
+
+</body>
+</html>

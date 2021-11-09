@@ -1,0 +1,140 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'solarpv/style.css' %}">
+</head>
+<body>
+<font face = "WildWest"  size = "5"><h3 align="center">Solar PV</h3></font>
+<!-- ------------ NAVBAR START ------------- -->
+<div class="topnav">
+  <a href="">Contact</a>
+  <a class="active" href="portalform">Portal Forms</a>
+  <a href="signin">Sign-in</a>
+  <a href="register">Register</a>
+  <a href="#news">About</a>
+  <a href="/">Home</a>
+</div><hr>
+<!-- ------------ NAVBAR END ------------- -->
+
+<!-- ------------ CLIENT FORM START ------------- -->
+<h3 align="center">PRODUCT</h3>
+
+<table align="center" cellpadding = "10">
+<tr>
+<td>MODEL NUMBER</td>
+<td><input type="text" name="model_num" maxlength="30"/>
+</td>
+</tr>
+
+<tr>
+<td>NAME</td>
+<td><input type="text" name="name" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>CELL TECHNOLOGY</td>
+<td><input type="text" name="cell_technology" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+
+<tr>
+<td>CELL MANUFACTURE</td>
+<td><input type="text" name="cell_manufacture" maxlength="30" />
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>NUMBER OF CELLS</td>
+<td><input type="text" name="number_cells" maxlength="30" />
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>NUMBER OF CELL SERIES</td>
+<td>
+<input type="text" name="cell_series" maxlength="30" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>NUMBER OF SERIES STRING</td>
+<td>
+<input type="text" name="series_string" maxlength="30" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>NUMBER OF DIODES</td>
+<td><input type="text" name="no_diodes" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+
+<tr>
+<td>PRODUCT LENGTH</td>
+<td><input type="text" name="product_length" maxlength="30" />
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>PRODUCT WIDTH</td>
+<td><input type="text" name="product_width" maxlength="30" />
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>PRODUCT WEIGHT</td>
+<td>
+<input type="text" name="product_weight" maxlength="30" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>SUPERSTRATE TYPE</td>
+<td>
+<input type="text" name="superstrate_type" maxlength="30" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+  <a href="portalform"><input type="button" value="Back"></a>
+</td>
+</tr>
+</table>
+
+</form>
+<!-- ------------ CLIENT FORM END ------------- -->
+
+<!-- ------------ FOOTER START ------------- -->
+<div class="regis_footer">
+  <p>All right reserved.</p>
+  <p>Solar PV Research & Development</p>
+</div>
+
+
+<!-- ------------ FOOTER END ------------- -->
+
+</body>
+</html>

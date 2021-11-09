@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'solarpv/style.css' %}">
+</head>
+<body>
+<font face = "WildWest"  size = "5"><h3 align="center">Solar PV</h3></font>
+<!-- ------------ NAVBAR START ------------- -->
+<div class="topnav">
+  <a href="">Contact</a>
+  <a class="active" href="portalform">Portal Forms</a>
+  <a href="signin">Sign-in</a>
+  <a href="register">Register</a>
+  <a href="#news">About</a>
+  <a href="/">Home</a>
+</div><hr>
+
+<!-- ------------ NAVBAR END ------------- -->
+
+<!-- ------------ CLIENT FORM START ------------- -->
+<h3 align="center">CERTIFICATE DETAIL</h3>
+
+<table align="center" cellpadding = "10">
+<tr>
+<td>CERTIFICATE ID</td>
+<td><input type="text" name="certificate_id" maxlength="30"/>
+</td>
+</tr>
+
+<tr>
+<td>CERTIFICATE NUMBER</td>
+<td><input type="number" name="certificate_number" maxlength="30"/>
+</td>
+</tr>
+
+<tr>
+<td>LOCATION</td>
+<td><input type="text" name="location" maxlength="6" />
+</td>
+</tr>
+
+<tr>
+<td>REPORT NUMBER</td>
+<td><input type="number" name="report_number" maxlength="30" />
+</td>
+</tr>
+
+<tr>
+<td>TEST STANDARD</td>
+<td><input type="text" name="test_standard" maxlength="30" />
+</td>
+</tr>
+
+<tr>
+<td>PRODUCT</td>
+<td>
+<input type="text" name="product" maxlength="30" />
+</td>
+</tr>
+
+<tr>
+<td>CERTIFICATE ISSUE DATE</td>
+<td>
+<input type="date" name="certi_issue_date" maxlength="30" />
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+  <a href="portalform"><input type="button" value="Back"></a>
+</td>
+</tr>
+</table>
+
+</form>
+<!-- ------------ CLIENT FORM END ------------- -->
+
+<!-- ------------ FOOTER START ------------- -->
+<div class="regis_footer">
+  <p>All right reserved.</p>
+  <p>Solar PV Research & Development</p>
+</div>
+
+
+<!-- ------------ FOOTER END ------------- -->
+
+</body>
+</html>

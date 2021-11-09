@@ -1,0 +1,140 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'solarpv/style.css' %}">
+</head>
+<body>
+<font face = "WildWest" size = "5"><h3 align="center">Solar PV</h3></font>
+<!-- ------------ NAVBAR START ------------- -->
+<div class="topnav">
+    <a href="">Contact</a>
+    <a href="portalform">Portal Forms</a>
+    <a href="signin">Sign-in</a>
+    <a class="active" href="register">Register</a>
+    <a href="#news">About</a>
+    <a href="/">Home</a>
+</div><hr>
+<!-- ------------ NAVBAR END ------------- -->
+
+
+<!-- ------------ FORM START ------------- -->
+<h3 align="center">REGISTER HERE</h3>
+
+
+<table align="center" cellpadding = "10">
+
+
+<tr>
+<td>USER NAME</td>
+<td><input type="text" name="User_Name" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>PREFIX</td>
+<td>
+<select name="prefix" id="prefix">
+<option value="-1">Choose</option>
+<option value="1">Mr.</option>
+<option value="2">Mrs.</option>
+<option value="3">Miss.</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<td>MIDDLE NAME</td>
+<td><input type="text" name="Middle_Name" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+(max 30 characters)
+</td>
+</tr>
+
+
+<tr>
+<td>JOB TITLE</td>
+<td><input type="text" name="job_title" maxlength="100" /></td>
+</tr>
+
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+
+<tr>
+<td>OFFICE NUMBER</td>
+<td>
+<input type="text" name="Office_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>CELL NUMBER</td>
+<td>
+<input type="text" name="Cell_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>INSTAFF</td>
+<td>
+Yes<input type="radio" name="instaff" value="Yes" />
+No<input type="radio" name="instaff" value="No" />
+</td>
+</tr>
+
+
+<tr>
+<td>PASSWORD</td>
+<td><input type="password" name="password" maxlength="30"/>
+</td>
+</tr>
+
+
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+<tr>
+<td  colspan="2" align="center">
+<p>Already registered <b><a href="signin">Sign-in</a></b></p>
+</tr>
+</td>
+
+</table>
+
+</form>
+<!-- ------------ FORM END ------------- -->
+
+<!-- ------------ FOOTER START ------------- -->
+<div class="regis_footer">
+  <p>All right reserved.</p>
+  <p>Solar PV Research & Development</p>
+</div>
+
+<!-- ------------ FOOTER END ------------- -->
+
+</body>
+</html>
